@@ -31,7 +31,6 @@ def Request(data_hoje,Fila,em_pausa,logados,disponivel,em_atendimento):
         print(f"Davitta Request - {response_davita.status_code}  - {DAVITA}")
         print(" ")
 
-
     except Exception as A:
             print(A)
 
@@ -171,7 +170,6 @@ while i == 0:
                 time.sleep(15)
                 # Reiniciar o temporizador de espera
                 tempo = 30
-
             except:
                 tempo = 30
                 # print("Erro:", e)
